@@ -1,7 +1,8 @@
 <script setup></script>
 
 <template>
-  <el-button type="primary">Success</el-button>
+  <!-- 一级路由出口组件 -->
+  <router-view></router-view>
 </template>
 
 <style scoped>
